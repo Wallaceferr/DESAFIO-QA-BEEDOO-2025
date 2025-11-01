@@ -2,13 +2,14 @@
 
 ## 🎯 Objetivo
 
-Este projeto faz parte do **Desafio Técnico de QA Beedoo 2025**, com o objetivo de analisar o módulo de curso disponível em [https://creative-sherbet-a51eac.netlify.app/](https://creative-sherbet-a51eac.netlify.app/) e validar seu comportamento por meio da criação de **User Story**, **Casos de Teste**, **Relatório de Bugs** e **Evidências em vídeo**.
+Este projeto faz parte do **Desafio Técnico de QA Beedoo 2025**, com o objetivo de analisar o módulo de curso disponível em [https://creative-sherbet-a51eac.netlify.app/](https://creative-sherbet-a51eac.netlify.app/) e validar o comportamento das funcionalidades de **listagem**, **cadastro e exclusão de cursos**, por meio da criação de **User Story**, **Casos de Teste**, **Relatório de Bugs** e **Evidências em vídeo**.
 
 ---
 
 ## 👤 User Story
 
-A User Story e as decisões tomadas para sua criação estão documentadas no arquivo [`USER_STORY.md`](./USER_STORY.md).
+A User Story e as decisões tomadas para sua criação estão documentadas no arquivo [`USER_STORY.md`](./USER_STORY.md). 
+Esta User Story foi criada com base no fluxo real do módulo de cursos, que permite cadastrar e listar cursos diretamente, sem necessidade de autenticação.
 
 ---
 
@@ -41,7 +42,7 @@ Durante a elaboração da User Story e dos testes:
 * Foi analisado o comportamento do módulo de curso, considerando **fluxos de sucesso e exceção**.
 * Os casos de teste foram criados com base nos **critérios de aceitação** definidos na User Story.
 * A documentação foi organizada em Markdown e Google Sheets para garantir **clareza, rastreabilidade e consistência**.
-
+* Antes de criar os testes, foi realizada uma análise exploratória para compreender o comportamento real do sistema, o que resultou em ajustes na User Story e inclusão de critérios de usabilidade ausentes (ex: mensagem para lista vazia).
 ---
 
 ## 🛠️ Ferramentas Utilizadas
