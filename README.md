@@ -27,7 +27,7 @@ A análise contemplou testes funcionais, de interface e usabilidade.
 ## 🛠️ Ferramentas Utilizadas
 
 * **Google Sheets** – documentação dos casos de teste
-* **OBS Studio / Loom** – gravação das evidências em vídeo
+* **Snipping tool** – gravação das evidências em vídeo
 * **GitHub** – versionamento e entrega do projeto
 * **Markdown** – documentação estruturada
 * **Google Drive** – armazenamento das evidências em vídeo
