@@ -232,12 +232,33 @@ Ausência de validação de URL e obrigatoriedade condicional para cursos online
 
 ---
 
+## BUG-010 – Exibição do cabeçalho (header) com ortografia incorreta
+
+**Severidade:** Baixa  
+**Prioridade:** Média  
+
+**Descrição:**  
+Palavra “Chalenge” no título está incorreta.
+
+**Passos para reprodução:**  
+1. Acessar a página principal.
+2. Verificar o texto no topo do site.
+
+**Resultado esperado:**  
+Título exibido corretamente como “Beedoo QA Challenge”.
+
+**Resultado obtido:**  
+Exibido incorretamente como “Beedoo QA Chalenge”.
+
+**Causa possível:**  
+Erro de digitação.
+
 ## ✅ Conclusão Geral
 
 Durante os testes exploratórios e funcionais do módulo de cursos, foram identificados **9 bugs** no total, distribuídos entre falhas:
 - **Funcionais:** 6  
 - **Validação de dados:** 2  
-- **Visuais/Usabilidade:** 1  
+- **Visuais/Usabilidade:** 2  
 
 Esses problemas indicam ausência de validações críticas e inconsistências na persistência e renderização dos dados.  
 A priorização recomendada é corrigir primeiro as falhas funcionais de **validação e exclusão**, pois impactam diretamente a integridade do sistema.
