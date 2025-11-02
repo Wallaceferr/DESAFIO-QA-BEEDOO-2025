@@ -8,27 +8,34 @@
 
 ---
 
+🎯 Descrição
+
+O módulo de cursos permite ao usuário criar novos cursos informando dados como nome, descrição, datas, tipo (presencial ou online), endereço ou link de inscrição, imagem e número de vagas.
+Após criados, os cursos são listados na tela inicial. O usuário também pode excluir cursos existentes.
+
+---
+
 ## 🧩 Critérios de Aceite
 
-1. Ao acessar o sistema, o usuário deve visualizar a lista de cursos cadastrados.  
-2. Caso não existam cursos, o sistema deve exibir uma mensagem informando “Nenhum curso cadastrado no momento.”  
-3. O usuário deve conseguir acessar a página de **cadastro de curso** por meio do menu superior.  
-4. Todos os campos do formulário devem ser validados antes do envio:  
-   - Nome, descrição, imagem, datas, vagas e tipo de curso são obrigatórios. 
-   - Ao selecionar tipo de curso, habilita o campo "Endereço" e "link de inscrição" que devem ser obrigatóris e válidos.
-   - A data final deve ser **igual ou posterior** à data inicial.  
-   - O número de vagas deve ser **maior que zero**.  
-5. Ao cadastrar um curso válido, ele deve aparecer imediatamente na lista de cursos.  
-6. O botão “Excluir Curso” deve remover corretamente o item da lista.
+1. Deve ser possível cadastrar cursos informando todos os campos obrigatórios.  
+2. O sistema não deve permitir campos vazios em nome, descrição, imagem, datas, endereço/link e número de vagas.  
+3. A data final deve ser igual ou posterior à data inicial.  
+4. O número de vagas deve ser maior que zero.    
+5. O campo de endereço só aparece se o tipo de curso for presencial e deve ser obrigatório.  
+6. O campo de link só aparece se o tipo de curso for online e deve conter uma URL válida.
+7. Após cadastro, o curso deve aparecer na listagem corretamente formatado.
+8. Ao excluir um curso, ele deve desaparecer da listagem e exibir mensagem de sucesso.
+9. Quando não houver cursos, deve exibir mensagem: “Nenhum curso cadastrado no momento”.
+10. O layout deve permanecer consistente, independentemente do tamanho da descrição ou da imagem.
 
 ---
 
 ## 🧠 Decisões Tomadas
 
-- A User Story foi criada considerando que o sistema é **aberto**, sem autenticação.  
+- A User Story foi baseada na observação direta da aplicação disponível em https://creative-sherbet-a51eac.netlify.app/.
+- Não há autenticação, portanto o fluxo inicia diretamente na tela de listagem de cursos. 
 - O foco principal é validar **a criação, listagem e exclusão de cursos**, garantindo consistência dos dados e boas práticas de usabilidade.  
-- Foram incluídos critérios de aceite que cobrem **fluxos positivos** (cadastro válido) e **negativos** (valores inválidos, campos vazios).  
-- O requisito de mensagem “Nenhum curso cadastrado” foi incluído por ser uma melhoria importante de **feedback ao usuário**.
+- Os critérios de aceitação foram definidos com base em práticas comuns de UX e validação de dados em sistemas de cadastro.  
 
 ---
 
