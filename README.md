@@ -1,48 +1,27 @@
 # DESAFIO QA BEEDOO 2025
 
-## 🎯 Objetivo
-
-Este projeto faz parte do **Desafio Técnico de QA Beedoo 2025**, com o objetivo de analisar o módulo de curso disponível em [https://creative-sherbet-a51eac.netlify.app/](https://creative-sherbet-a51eac.netlify.app/) e validar o comportamento das funcionalidades de **listagem**, **cadastro e exclusão de cursos**, por meio da criação de **User Story**, **Casos de Teste**, **Relatório de Bugs** e **Evidências em vídeo**.
+Repositório desenvolvido para o desafio técnico de QA do processo seletivo Beedoo.
 
 ---
 
-## 👤 User Story
+## 📋 Etapa 1 — Testes no módulo de cursos
 
-A User Story e as decisões tomadas para sua criação estão documentadas no arquivo [`USER_STORY.md`](./USER_STORY.md). 
-Esta User Story foi criada com base no fluxo real do módulo de cursos, que permite cadastrar e listar cursos diretamente, sem necessidade de autenticação.
+### 🔗 Aplicação analisada
+[https://creative-sherbet-a51eac.netlify.app/](https://creative-sherbet-a51eac.netlify.app/)
 
----
-
-## 🧪 Casos de Teste
-
-A documentação dos casos de teste foi realizada em uma planilha no Google Sheets, incluindo cenários de sucesso e erro.
-
-📄 **Link para a planilha:** [Adicionar link do Google Sheets aqui]
+### 📖 Documentos
+- **User Story:** [Ver aqui](./USER_STORY.md)
+- **Relatório de Bugs:** [Ver aqui](./BUG_REPORT.md)
+- **Casos de Teste:** [Planilha Google Sheets](<https://docs.google.com/spreadsheets/d/1TmCepPWRsbARJP3QDN5FHtGUlFCKmQXeE_t0k9Q3glw/edit?usp=sharing>)
+- **Evidências (vídeos):** [Google Drive](<https://drive.google.com/drive/folders/15F-hUBYkXRJ0FZ8pvh-qlCddVVqPaCVE?usp=sharing>)
 
 ---
 
-## 🪲 Relatório de Bugs
+### 🧠 Metodologia
 
-Os defeitos encontrados durante a execução dos testes foram documentados seguindo a metodologia **IEEE 829 (adaptada)**, conforme o arquivo [`BUG_REPORT.md`](./BUG_REPORT.md).
+Os testes foram realizados de forma **exploratória**, com base em **casos de teste manuais passo a passo**.  
+A análise contemplou testes funcionais, de interface e usabilidade.
 
----
-
-## 🎥 Evidências
-
-As evidências em vídeo da execução dos testes estão disponíveis no Google Drive.
-
-🎬 **Link para as evidências:** [Adicionar link do Google Drive aqui]
-
----
-
-## 🧭 Metodologia e Decisões
-
-Durante a elaboração da User Story e dos testes:
-
-* Foi analisado o comportamento do módulo de curso, considerando **fluxos de sucesso e exceção**.
-* Os casos de teste foram criados com base nos **critérios de aceitação** definidos na User Story.
-* A documentação foi organizada em Markdown e Google Sheets para garantir **clareza, rastreabilidade e consistência**.
-* Antes de criar os testes, foi realizada uma análise exploratória para compreender o comportamento real do sistema, o que resultou em ajustes na User Story e inclusão de critérios de usabilidade ausentes (ex: mensagem para lista vazia).
 ---
 
 ## 🛠️ Ferramentas Utilizadas
@@ -52,3 +31,11 @@ Durante a elaboração da User Story e dos testes:
 * **GitHub** – versionamento e entrega do projeto
 * **Markdown** – documentação estruturada
 * **Google Drive** – armazenamento das evidências em vídeo
+
+---
+
+### ✨ Observações
+- A aplicação apresenta inconsistências de validação e UI.
+- Sugestões de melhoria foram documentadas nos relatórios.
+- Os casos de teste foram elaborados considerando fluxos de sucesso e exceção.
+
